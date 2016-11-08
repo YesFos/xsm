@@ -1,0 +1,151 @@
+@w:100%;
+@h:100%;
+
+
+*{margin: 0;padding: 0;box-sizing: border-box;}
+ul{list-style: none;}
+a{text-decoration: none;}
+body{padding-top: 70px; overflow: hidden;}
+@font-face{
+    font-family: ffs;
+    src: url(../font/书体坊兰亭体.TTF);
+}
+/*通用结束*/
+
+.nav{
+    width: 100%;
+    height: 70px;
+    background: #333333;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 9999;
+    .nav_n{
+        width: 1280px;
+        height: 70px;
+        margin: 0 auto;
+        .nav_l{
+            float: left;
+            margin-left: 35px;
+        }
+        .nav_r{
+            float: right;
+            ul{
+                float: right;
+                li{
+                    cursor: pointer; 
+                    float: left;
+                    padding: 0 30px;
+                    height: 70px;
+                    line-height: 70px;
+                    font-size: 20px;
+                    font-weight: bold;
+                    text-align: center;
+                    a{
+                        display: block;
+                        color: #FFFFFF;
+                        &:hover{
+                            color: #f75c10;
+                        }
+                    }
+                }
+                .active{
+                    a{
+                        color: #f00;
+                        font-family: "微软雅黑";
+                        &:hover{
+                            color: #f00;
+                        }
+                    }
+                } 
+            }
+        }
+    }
+}
+.wh{
+    width: @w;
+    height: @h;
+    background: url(../img/fengjing_bg.jpg) no-repeat;
+    background-size: 100% 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 99;
+//  display: none;
+}
+.wb{
+    width: @w;
+    height: @h;
+    position: relative;
+//  display: none;
+    span{
+        width: 80px;
+        height: 40px;
+        background: #F75C10;
+        color: #FFFFFF;
+        position: absolute;
+        right: 20px;
+        top: 10px;
+        line-height: 40px;
+        text-align: center;z-index: 993;
+        cursor: pointer;
+        font-family: "ffs";
+        &:hover{
+            background: #E6AF09;
+        }
+    }
+    .wb_l{
+        width: 550px;
+        height: 390px;
+        position: absolute;
+        left: 220px;
+        top: 100px;
+        overflow: hidden;
+        background: #CCCCCC;
+        z-index: 992;
+        ul{
+            width: 550px;
+            padding: 0 40px;
+            position: absolute;
+            left: 0;
+            top: 0;
+            li{
+                width: @w;
+                height: 30px;
+                line-height: 30px;
+                font-size: 12px;
+            }
+            .sj{
+                text-indent: 3em;
+            }
+        }
+    }
+    .wb_r{
+        height: 190px;
+        width: 296px;
+        position: absolute;
+        right: 220px;
+        top: 100px;
+        background: #CCCCCC;
+        z-index: 992;
+        padding: 8px;
+        border-radius: 8px;
+        cursor: pointer;
+        
+        img{
+            width: 100%;
+        }
+        p{
+            width: 280px;
+            height: 24px;
+            background: rgba(0,0,0,.7);
+            color: #FFFFFF;
+            font-size: 14px;
+            position: absolute;
+            bottom: 8px;
+            text-align: center;
+            line-height: 24px;
+            display: none;
+        }
+    }
+}

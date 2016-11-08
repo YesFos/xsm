@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="css/lightbox.css"/>
+		<link rel="stylesheet" type="text/css" href="css/three.css"/>
+		<script src="js/jquery-1.8.3.min.js" type="text/javascript"></script>
+		<script src="js/lightbox.js" type="text/javascript"></script>
+	</head>
+	<body>
+		<div class="nav">
+			<div class="nav_n">
+				<div class="nav_l">
+					<a href="javascript:;"><img src="img/logo-1.png"/></a>
+				</div>
+				<div class="nav_r">
+					<ul id="menu">
+						<li data-menuanchor="page1"><a href="#page1">首页</a></li>
+						<li data-menuanchor="page2"><a href="#page2">历史文化</a></li>
+						<li data-menuanchor="page3"><a href="#page3">风景名地</a></li>
+						<li data-menuanchor="page4" class="active"><a href="#page4">特色小吃</a></li>
+						<li data-menuanchor="page5"><a href="#page5">本地特产</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<div class="xiang">
+			<div class="icon1">
+				<a class="sh" href="img/ms.jpg" data-lightbox="road4" data-title="材料：冷冻芋头200克、鸡肉丸子200克、扁豆50克、上汤一杯半、柚子少许。调料汁：砂糖3汤匙、酒2汤匙、料酒1汤匙、酱油3汤匙。"><img src="img/ic_1.jpg"/></a>
+				<span class="title">鸡肉丸</span>
+			</div>
+			<div class="icon2">
+				<a class="sh" href="img/ms_1.jpg" data-lightbox="road4" data-title="五香狗肉的做法简单是家常凉菜菜谱里的常见菜，五香狗肉口味属于五香味，做法属类，但怎么做五香狗肉最好吃，主要看自己的口味习惯进行细节调整，让自己跟着感觉来做这道五香狗肉吧。"><img src="img/ic_2.jpg"/></a>
+				<span class="title">五香狗肉</span>
+			</div>
+			<div class="icon3">
+				<a class="sh" href="img/ms_2.jpg" data-lightbox="road4" data-title="原料：面粉、肉馅、鸡蛋。调料：绍酒、盐、香葱、姜、香油、生抽、花椒水。"><img src="img/ic_3.jpg"/></a>
+				<span class="title">泌阳县千层肉饼</span>
+			</div>
+			<div class="icon4">
+				<a class="sh" href="img/ms_3.jpg" data-lightbox="road4" data-title="原料：山楂、冰糖、水。"><img src="img/ic_4.jpg"/></a>
+				<span class="title">冰糖山楂</span>
+			</div>
+			<div class="icon5">
+				<a class="sh" href="img/ms_4.jpg" data-lightbox="road4" data-title="涮牛肚的做法历史悠久，在制作过程中您也能感受到这些特色美食的魅力。涮牛肚以牛肚为主要材料，烹饪的做法煮菜为主，口味属于家常味。"><img src="img/ic_5.jpg"/></a>
+				<span class="title">涮牛肚</span>
+			</div>
+			<div class="icon6">
+				<a class="sh" href="img/ms_5.jpg" data-lightbox="road4" data-title="原料：紫薯、糯米粉、芝麻、蜜红豆。"><img src="img/ic_6.jpg"/></a>
+				<span class="title">确山紫薯麻团</span>
+			</div>
+			<div class="icon7">
+				<a class="sh" href="img/ms_6.jpg" data-lightbox="road4" data-title="　黄焖鱼具有鱼鲜味美，入口自化的独特风味。黄焖鱼是以精选的小鱼为主料，经炸制，汤焖而成。多在饮食摊点和夜市制售，也有摊车沿街叫卖。顺河回族区个体户早根，祖孙三代经营黄焖鱼，常挑担在洪河沿东口经营，供不应求。"><img src="img/ic_7.jpg"/></a>
+				<span class="title">黄焖鱼</span>
+			</div>
+			<div class="icon8">
+				<a class="sh" href="img/ms_7.jpg" data-lightbox="road4" data-title="原料：面粉，猪肉，韭菜，香油，盐，酱油或黄酱。"><img src="img/ic_8.jpg"/></a>
+				<span class="title">芝麻韭菜猪肉馅饼</span>
+			</div>
+		</div>
+		<div class="xiang1"></div>
+		<div class="xiang2"></div>
+		<a href="index.html#page4"><span class="fanh">返回</span></a>
+	</body>
+</html>

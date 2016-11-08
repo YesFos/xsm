@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="css/zgf.css"/>
+		<link rel="stylesheet" type="text/css" href="css/animate.css"/>
+		<link rel="stylesheet" type="text/css" href="css/jquery.fullPage.css"/>
+		<link rel="stylesheet" type="text/css" href="css/lightbox.css"/>
+		<link rel="stylesheet" type="text/css" href="css/swiper.css"/>
+		<script src="js/jquery-1.8.3.min.js" type="text/javascript"></script>
+		<script src="js/zgf.js" type="text/javascript"></script>
+		<script src="js/jquery.fullPage.js" type="text/javascript"></script>
+		<script src="js/lightbox.js" type="text/javascript"></script>
+		<script src="js/swiper.js" type="text/javascript"></script>
+		<script src="js/wow.js" type="text/javascript"></script>
+		<script type="text/javascript">
+			$(function(){
+				$("#dowebok").fullpage({
+					anchors: ['page1', 'page2', 'page3', 'page4','page5'],
+					menu: '#menu',
+					scrollBar:true
+				});
+			});
+			$(function(){
+				$("body").css("overflow","hidden");
+			});
+			$(function(){
+				var swiper = new Swiper('.swiper-container', {
+		        pagination: '.swiper-pagination',
+		        nextButton: '.swiper-button-next',
+        		prevButton: '.swiper-button-prev',
+		        paginationClickable: true,
+		        centeredSlides: true,
+		        autoplay: 2500,
+		        loop:true,
+		        autoplayDisableOnInteraction: false
+    			});
+			}); 
+			$(function(){
+				new WOW().init();
+			});
+		</script>
+	</head>
+	<body>
+		<div class="nav">
+			<div class="nav_n">
+				<span class="dl"><a class="dl_w" href="javascript:;">登录</a>丨<a class="dl_c" href="register.html">注册</a></span>
+				<div class="nav_l">
+					<a href="#page1"><img src="img/logo-1.png"/></a>
+				</div>
+				<div class="nav_r">
+					<ul id="menu">
+						<li data-menuanchor="page1" class="active"><a href="#page1">首页</a></li>
+						<li data-menuanchor="page2"><a href="#page2">历史文化</a></li>
+						<li data-menuanchor="page3"><a href="#page3">风景名地</a></li>
+						<li data-menuanchor="page4"><a href="#page4">特色小吃</a></li>
+						<li data-menuanchor="page5"><a href="#page5">本地特产</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<div id="dowebok">
+			<div class="section">
+				<div class="swiper-container">
+			        <div class="swiper-wrapper">
+			            <div class="swiper-slide"><img src="img/banner_1.jpg"/></div>
+			            <div class="swiper-slide"><img src="img/banner_2.jpg"/></div>
+			            <div class="swiper-slide"><img src="img/banner_3.jpg"/></div>
+			            <div class="swiper-slide"><img src="img/banner_4.jpg"/></div>
+			            <div class="swiper-slide"><img src="img/banner_5.jpg"/></div>
+			            <div class="swiper-slide"><img src="img/banner_6.jpg"/></div>
+			            <div class="swiper-slide"><img src="img/banner_7.jpg"/></div>
+			        </div>
+			        <div class="swiper-pagination"></div>
+			        <div class="swiper-button-next"></div>
+        			<div class="swiper-button-prev"></div>
+			   </div>
+			</div>
+			<div class="section">
+				<p class="tit wow bounceInRight" data-wow-duration="2s">驻马店  风土文化</p>
+				<p class="fj wow bounceInRight" data-wow-duration="2s">驻马文化，源远流长</p>
+			   	<p class="fj1 wow bounceInRight" data-wow-duration="2s">传颂万世，永不消弭</p>
+				<div class="icon  wow bounceInLeft" data-wow-duration="2s" data-wow-delay = "1s">
+					<span class="title">文化名人</span>
+					<a class="sh" href="img/pic_s.jpg" data-lightbox="road1" data-title="杨靖宇（1905——1940），原名马尚德，字骥生，汉族，河南省确山县人，中国共产党优秀党员，无产阶级革命家、军事家、著名抗日民族英雄。"><img src="img/icon_1.jpg"/></a>
+				</div>
+				<div class="icon1  wow bounceInRight" data-wow-duration="3s" data-wow-delay = "2s">
+					<span class="title">起源文化</span>
+					<a class="sh" href="sec.html"><img src="img/icon_2.jpg"/></a>
+				</div>
+			</div>
+			<div class="section">
+			   	<p class="wow fadeInDown" data-wow-duration="2s">驻马店    名胜古迹</p>
+			   	<p class="fj wow fadeInDown" data-wow-duration="2s">驻马风光，极致无限</p>
+			   	<p class="fj1 wow fadeInDown" data-wow-duration="2s">山清水秀，风景秀丽</p>
+			   	<div class="icon1  wow bounceInLeft" data-wow-duration="2s">
+					<a class="sh" href="img/zygf.jpg" data-lightbox="road3" data-title="在正阳县的正阳公园东侧有一个古佛文化园，别看它刚建不久，可是它的名气却早已飘洋过海，宝岛台湾多家媒体前来对它进行专题报道，可以说正阳古佛文化园已经在宝岛台湾名声大起。"><img src="img/icon_6.jpg"/></a>
+					<span class="title">正阳古佛文化园</span>
+				</div>
+				<div class="icon2  wow bounceInDown" data-wow-duration="2s" data-wow-delay = "1s">
+					<a class="sh" href="img/zggm.jpg" data-lightbox="road3" data-title="竹沟革命纪念馆位于河南省确山县西30公里的竹沟镇延安街，始建于1956年，由-题写馆名。是全国建立较早的革命纪念馆之一。馆内有革命旧址31处，文物、文献、图片等近千件。是全国重点文物保护单位。"><img src="img/icon_5.jpg"/></a>
+					<span class="title">竹沟革命纪念馆</span>
+				</div>
+				<div class="icon3  wow bounceInDown" data-wow-duration="2s" data-wow-delay = "1s">
+					<a class="sh" href="img/txy.jpg" data-lightbox="road3" data-title="棠溪源更景区位于河南省之马店市西平县境内，总面积38平方公里，森林覆盖率95%以上。分为棠溪湖、棠溪峡、蜘蛛山、跑马岭4个游览区，集绮丽秀美的自然凤光与厚重深沉的炎黄文化于一体，是祖之源、剑之源、水之源。"><img src="img/icon_4.jpg"/></a>
+					<span class="title">棠溪源风景区</span>
+				</div>
+				<div class="icon4  wow bounceInRight" data-wow-duration="2s">
+					<a class="sh" href="img/lls.jpg" data-lightbox="road3" data-title="老乐山位于确山县城西北10公里处，由高低不同的九座山峰组成，山北崖有老虎洞（因微风吹拂松林，洞内便听到松涛轰鸣，犹如虎啸而得名）。"><img src="img/icon_3.jpg"/></a>
+					<span class="title">老乐山</span>
+				</div>
+			</div>
+			<div class="section">
+				<p class="wow fadeInUp" data-wow-duration="2s">驻马店    特色小吃</p>
+			   	<p class="fj wow fadeInUp" data-wow-duration="2s">色泽光鲜，香味扑鼻</p>
+			   	<p class="fj1 wow fadeInUp" data-wow-duration="2s">入口即化，口味极佳</p>
+			   	<a href="three.html"><span class="xiangqing wow fadeIn" data-wow-duration="2s" data-wow-delay="1s">进</span></a>
+			</div>
+			<div class="section">
+				<p class="wow slideInDown" data-wow-duration="2s">驻马店    本地特产</p>
+			   	<p class="fj wow slideInDown" data-wow-duration="2s">驻马气息，乡风朴素</p>
+			   	<p class="fj1 wow slideInDown" data-wow-duration="2s">本地特产，突出体现</p>
+			   	<a href="four.html"><span class="xiangqing1 wow fadeIn" data-wow-duration="2s" data-wow-delay="2s">进</span></a>
+			</div>
+		</div>
+		<div class="dlk">
+			<h1>欢迎登录<span class="dl_m">×</span></h1>
+			<div class="dlk_c">
+				<form action="" method="post">
+					<table>
+						<tr><td class="le">用户名:</td><td><input type="text" id="name1" value="" /></td></tr>
+						<tr><td class="le">密码:</td><td><input type="password" id="pasw" value="" /></td></tr>
+						<tr class="wz"><td class="le"></td><td class="re"><span><a href="">忘记密码？</a>丨<a href="register.html">注册</a></span></td></tr>
+						<tr><td></td><td><input class="dl_btn" type="button" value="登录"/></td></tr>
+					</table>
+				</form>
+			</div>
+		</div>
+		<div class="dlk_bg"></div>
+
+	</body>
+</html>

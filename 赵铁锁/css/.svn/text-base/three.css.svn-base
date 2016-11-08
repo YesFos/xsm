@@ -1,0 +1,313 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+body {
+  padding-top: 70px;
+  overflow: hidden;
+}
+@font-face {
+  font-family: ffs;
+  src: url(../font/书体坊兰亭体.TTF);
+}
+/*通用结束*/
+.nav {
+  width: 100%;
+  height: 70px;
+  background: #333333;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 9999;
+}
+.nav .nav_n {
+  width: 1280px;
+  height: 70px;
+  margin: 0 auto;
+}
+.nav .nav_n .nav_l {
+  float: left;
+  margin-left: 35px;
+}
+.nav .nav_n .nav_r {
+  float: right;
+}
+.nav .nav_n .nav_r ul {
+  float: right;
+}
+.nav .nav_n .nav_r ul li {
+  cursor: pointer;
+  float: left;
+  padding: 0 30px;
+  height: 70px;
+  line-height: 70px;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+}
+.nav .nav_n .nav_r ul li a {
+  display: block;
+  color: #FFFFFF;
+}
+.nav .nav_n .nav_r ul li a:hover {
+  color: #f75c10;
+}
+.nav .nav_n .nav_r ul .active a {
+  color: #f00;
+  font-family: "微软雅黑";
+}
+.nav .nav_n .nav_r ul .active a:hover {
+  color: #f00;
+}
+.xiang {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: 101;
+}
+.xiang .icon1 {
+  position: absolute;
+  left: 25%;
+  top: 25%;
+  text-align: center;
+}
+.xiang .icon1 .sh {
+  display: block;
+  transform: scale(1);
+  transition: all 2s;
+  width: 140px;
+  height: 140px;
+  border-radius: 120px;
+  overflow: hidden;
+  border: 2px solid #F75C10;
+}
+.xiang .icon1 .sh img {
+  transform: scale(1);
+  transition: all 2s;
+}
+.xiang .icon1 .title {
+  font-size: 20px;
+  color: #F75C10;
+  font-family: "ffs";
+}
+.xiang .icon2 {
+  position: absolute;
+  left: 38%;
+  top: 25%;
+  text-align: center;
+}
+.xiang .icon2 .sh {
+  display: block;
+  transform: scale(1);
+  transition: all 2s;
+  width: 140px;
+  height: 140px;
+  border-radius: 120px;
+  overflow: hidden;
+  border: 2px solid #F75C10;
+}
+.xiang .icon2 .sh img {
+  transform: scale(1);
+  transition: all 2s;
+}
+.xiang .icon2 .title {
+  font-size: 20px;
+  color: #F75C10;
+  font-family: "ffs";
+}
+.xiang .icon3 {
+  position: absolute;
+  left: 51%;
+  top: 25%;
+  text-align: center;
+}
+.xiang .icon3 .sh {
+  display: block;
+  transform: scale(1);
+  transition: all 2s;
+  width: 140px;
+  height: 140px;
+  border-radius: 120px;
+  overflow: hidden;
+  border: 2px solid #F75C10;
+}
+.xiang .icon3 .sh img {
+  transform: scale(1);
+  transition: all 2s;
+}
+.xiang .icon3 .title {
+  font-size: 20px;
+  color: #F75C10;
+  font-family: "ffs";
+}
+.xiang .icon4 {
+  position: absolute;
+  left: 64%;
+  top: 25%;
+  text-align: center;
+}
+.xiang .icon4 .sh {
+  display: block;
+  transform: scale(1);
+  transition: all 2s;
+  width: 140px;
+  height: 140px;
+  border-radius: 120px;
+  overflow: hidden;
+  border: 2px solid #F75C10;
+}
+.xiang .icon4 .sh img {
+  transform: scale(1);
+  transition: all 2s;
+}
+.xiang .icon4 .title {
+  font-size: 20px;
+  color: #F75C10;
+  font-family: "ffs";
+}
+.xiang .icon5 {
+  position: absolute;
+  left: 25%;
+  top: 55%;
+  text-align: center;
+}
+.xiang .icon5 .sh {
+  display: block;
+  transform: scale(1);
+  transition: all 2s;
+  width: 140px;
+  height: 140px;
+  border-radius: 120px;
+  overflow: hidden;
+  border: 2px solid #F75C10;
+}
+.xiang .icon5 .sh img {
+  transform: scale(1);
+  transition: all 2s;
+}
+.xiang .icon5 .title {
+  font-size: 20px;
+  color: #F75C10;
+  font-family: "ffs";
+}
+.xiang .icon6 {
+  position: absolute;
+  left: 38%;
+  top: 55%;
+  text-align: center;
+}
+.xiang .icon6 .sh {
+  display: block;
+  transform: scale(1);
+  transition: all 2s;
+  width: 140px;
+  height: 140px;
+  border-radius: 120px;
+  overflow: hidden;
+  border: 2px solid #F75C10;
+}
+.xiang .icon6 .sh img {
+  transform: scale(1);
+  transition: all 2s;
+}
+.xiang .icon6 .title {
+  font-size: 20px;
+  color: #F75C10;
+  font-family: "ffs";
+}
+.xiang .icon7 {
+  position: absolute;
+  left: 51%;
+  top: 55%;
+  text-align: center;
+}
+.xiang .icon7 .sh {
+  display: block;
+  transform: scale(1);
+  transition: all 2s;
+  width: 140px;
+  height: 140px;
+  border-radius: 120px;
+  overflow: hidden;
+  border: 2px solid #F75C10;
+}
+.xiang .icon7 .sh img {
+  transform: scale(1);
+  transition: all 2s;
+}
+.xiang .icon7 .title {
+  font-size: 20px;
+  color: #F75C10;
+  font-family: "ffs";
+}
+.xiang .icon8 {
+  position: absolute;
+  left: 64%;
+  top: 55%;
+  text-align: center;
+}
+.xiang .icon8 .sh {
+  display: block;
+  transform: scale(1);
+  transition: all 2s;
+  width: 140px;
+  height: 140px;
+  border-radius: 120px;
+  overflow: hidden;
+  border: 2px solid #F75C10;
+}
+.xiang .icon8 .sh img {
+  transform: scale(1);
+  transition: all 2s;
+}
+.xiang .icon8 .title {
+  font-size: 20px;
+  color: #F75C10;
+  font-family: "ffs";
+}
+.xiang1 {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  background: #CCCCCC;
+  opacity: 0.2;
+  z-index: 100;
+}
+.xiang2 {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  background: url(../img/pic_13.jpg) no-repeat;
+  background-size: cover;
+  z-index: 99;
+}
+.fanh {
+  width: 80px;
+  height: 40px;
+  background: #F75C10;
+  text-align: center;
+  line-height: 40px;
+  color: #FFFFFF;
+  position: absolute;
+  right: 20px;
+  top: 80px;
+  z-index: 103;
+  font-family: "ffs";
+  cursor: pointer;
+}
+.fanh:hover {
+  background: #E6AF09;
+}

@@ -1,0 +1,141 @@
+@w:100%;
+@h:100%;
+
+
+*{margin: 0;padding: 0;box-sizing: border-box;}
+ul{list-style: none;}
+a{text-decoration: none;}
+body{padding-top: 70px; overflow: hidden;}
+@font-face{
+    font-family: ffs;
+    src: url(../font/书体坊兰亭体.TTF);
+}
+/*通用结束*/
+
+.nav{
+    width: 100%;
+    height: 70px;
+    background: #333333;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 9999;
+    .nav_n{
+        width: 1280px;
+        height: 70px;
+        margin: 0 auto;
+        position: relative;
+        .nav_l{
+            float: left;
+            margin-left: 35px;
+        }
+        .nav_r{
+            float: right;
+            ul{
+                float: right;
+                li{
+                    cursor: pointer; 
+                    float: left;
+                    padding: 0 30px;
+                    height: 70px;
+                    line-height: 70px;
+                    font-size: 20px;
+                    font-weight: bold;
+                    text-align: center;
+                    a{
+                        display: block;
+                        color: #FFFFFF;
+                        &:hover{
+                            color: #f75c10;
+                        }
+                    }
+                }
+                .active{
+                    a{
+                        color: #f00;
+                        font-family: "微软雅黑";
+                        &:hover{
+                            color: #f00;
+                        }
+                    }
+                } 
+            }
+        }
+    }
+}
+
+.content{
+    width: @w;
+    height: @h;
+    position: absolute;
+    left: 0;
+    top: 0;
+    padding-top: 70px;
+    background: url(../img/bg_l.jpg) no-repeat;
+    background-size: 100% 100%;
+    .fh{
+        width: 80px;
+        height: 40px;
+        background: #F75C10;
+        color: #FFFFFF;
+        position: absolute;
+        right: 20px;
+        top: 80px;
+        line-height: 40px;
+        text-align: center;z-index: 993;
+        cursor: pointer;
+        font-family: "ffs";
+        &:hover{
+            background: #E6AF09;
+        }
+    }
+    .content_n{
+        width: 600px;
+        padding: 100px 0;
+        margin: 0 auto;
+        h1{
+            width: 600px;
+            height: 40px;
+            line-height: 40px;
+            padding-left: 100px;
+            font-size: 16px;
+            color: #CE3A00;
+        }
+        table{
+            margin-left: 120px;
+            tr{
+                width: 600px;
+                height: 40px;
+                line-height: 40px;
+                span{
+                    font-size: 12px;
+                    color: #FF0000;
+                    margin-left: 15px;
+                }
+                input{
+                    width: 240px;
+                    height: 26px;
+                    line-height: 26px;
+                    padding-left: 10px;
+                    outline: none;
+                    border: 1px solid #CE3A00;
+                }
+                .ss{
+                    width: 105px;
+                    height: 35px;
+                    margin: 0 8px;
+                    padding: 0;
+                    border: none;
+                    background: #000000;
+                    color: #FFFFFF;
+                    cursor: pointer;
+                }
+                .nk{
+                    text-align: right;
+                    color: #CE3A00;
+                    font-size: 14px;
+                }
+            }
+        }
+    }
+}
